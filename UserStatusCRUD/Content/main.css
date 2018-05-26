@@ -1,0 +1,29 @@
+﻿body {
+    background-color: black;
+}
+
+#pageTitle {
+    color: white;
+    text-align: center;
+}
+
+#theBox {
+    border: 2px solid white;
+    border-radius: 3%;
+    width: 100%;
+}
+
+label {
+    color: white;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+#unameInput {
+    width: 65%;
+    margin-left: 15px;
+}
+
+.radio {
+    margin-left: 15px !important;
+}
