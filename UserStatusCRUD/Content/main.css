@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: black;
+    background-color: #17315b;
 }
 
 #pageTitle {
@@ -7,23 +7,53 @@
     text-align: center;
 }
 
+#theUsers {
+    margin-top: 12%;
+}
+
 #theBox {
     border: 2px solid white;
     border-radius: 3%;
-    width: 100%;
+    width: 75%;
+    margin-top: 30%;
+    background-color: #112544;
 }
 
 label {
     color: white;
-    margin-top: 5px;
     padding-left: 15px;
 }
 
+#unameLabel {
+    margin-top: 7px;
+}
+
 #unameInput {
-    width: 65%;
+    width: 85%;
     margin-left: 15px;
 }
 
 .radio {
     margin-left: 15px !important;
+}
+
+#submitButton {
+    position: relative;
+    left: 15px !important;
+    margin-top: 17px;
+}
+
+#clearButton {
+    position: relative;
+    left: 15px;
+    top: 8px;
+}
+
+.offTemplate {
+    border: 2px solid white;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 10px;
 }

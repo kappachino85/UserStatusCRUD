@@ -19,15 +19,15 @@
                 <h2 id="pageTitle">User Status CRUD Application</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row" >
+            <div class="col-md-5" id="theUsers">
                 <div class="online"></div>
                 <div class="offline"></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 col-md-offset-2">
                 <div id="theBox">
                     <div class="form-group">
-                        <label for="unameInput">Username:</label>
+                        <label id="unameLabel" for="unameInput">Username:</label>
                         <input id="unameInput" class="form-control" type="text" />
                         <br />
                         <label>Status:</label>
@@ -37,14 +37,18 @@
                         <div class="radio">
                             <label><input type="radio" name="optradio" />Offline</label>
                         </div>
+                        <div>
+                            <button id="submitButton" type="button" class="btn btn-info">Submit</button>
+                            <button id="clearButton" type="button" class="btn btn-danger">Clear</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
     </div>
 </body>
 
 <script src="~/Scripts/jquery-3.3.1.min.js"></script>
 <script src="~/Scripts/bootstrap.min.js"></script>
-
+<script src="~/Scripts/main.js"></script>
 </html>
