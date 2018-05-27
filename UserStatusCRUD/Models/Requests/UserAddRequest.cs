@@ -10,6 +10,7 @@ namespace UserStatusCRUD.Models.Requests
     {
         public string UserName { get; set; }
 
-        public int Status { get; set; }
+        public string Status { get; set; }
+
     }
 }

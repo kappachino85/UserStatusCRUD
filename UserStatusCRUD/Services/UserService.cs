@@ -68,6 +68,7 @@ namespace UserStatusCRUD.Services
                 DbParameters = new SqlParameter[]
                 {
                     new SqlParameter("@Id", model.Id),
+                    new SqlParameter("@Username", model.UserName),
                     new SqlParameter("@UserStatus", model.Status)
                 }
             });

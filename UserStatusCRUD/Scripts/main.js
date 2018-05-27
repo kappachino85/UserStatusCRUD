@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    
+    console.log('hi');
     getAllUsers();
 
     var data = {};
@@ -19,13 +19,14 @@
         $.ajax(url, settings);
     }
 
-    function getAllSuccess(rdata) {
-        $.each(rdata, function () {
+    function getAllSuccess(data) {
+        $.each(data, function () {
+            console.log(this.Status);
             var uName = this.UserName;
-            if (this.Status == 1) {
+            if (this.Status == "online") {
                 $('.online').append('<div class="onTemplate">' + uName + ' is currently online.</div>');
             }
-            else if (this.Status == 0) {
+            else if (this.Status == "offline") {
                 $('.offline').append('<div class="offTemplate">' + uName + ' is currently offline.</div>');
             }
         });
