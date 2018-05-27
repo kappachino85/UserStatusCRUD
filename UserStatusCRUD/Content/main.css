@@ -1,10 +1,14 @@
 ﻿body {
     background-color: #17315b;
+    background-image: url('https://images.wallpaperscraft.com/image/muzzle_blue_vector_funny_7734_2048x1152.jpg');
+    background-position: top 35% center;
+    top: 20%;
 }
 
 #pageTitle {
     color: white;
     text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #theUsers {
@@ -49,6 +53,15 @@ label {
     top: 8px;
 }
 
+.onTemplate {
+    border: 2px solid white !important;
+    background-color: green !important;
+    color: white !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    padding-left: 10px !important;
+}
+
 .offTemplate {
     border: 2px solid white;
     background-color: grey;
@@ -56,4 +69,13 @@ label {
     border-radius: 5px;
     width: 100%;
     padding-left: 10px;
+}
+
+.templates {
+    margin-bottom: 5px;
+}
+
+.nameLink {
+    color: #abf7fc;
+    cursor: pointer;
 }
